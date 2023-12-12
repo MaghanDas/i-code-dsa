@@ -1,5 +1,7 @@
 package dsa.Linkedlist;
 
+import com.github.weisj.jsvg.N;
+
 import java.util.Scanner;
 
 public class Node {
@@ -29,7 +31,35 @@ public class Node {
     }
     return count;
   }
+  public Node append(int x, Node head) {
+    Node newNode = new Node(x);
+    if (head == null) {
+      head = newNode;
+      return head;
+    }
+    Node temp = head;
+    while (temp.next!= null) {
+      temp = temp.next;
+    }
+    temp.next = newNode;
+    return head;
+  }
   public Node insert(Node head) {
-    
+
+    return head;
+  }
+
+  public Node remove(Node head,int x) {
+    Node temp = head;
+    if (head.value == x) {
+      head = head.next;
+    }
+    while (temp != null ){
+      if (temp.next.value == x) {
+        temp.next = temp.next.next;
+      }
+      temp = temp.next;
+    }
+    return head;
   }
 }
