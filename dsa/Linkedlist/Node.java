@@ -1,4 +1,6 @@
 package dsa.Linkedlist;
+import io.grpc.internal.JsonUtil;
+
 import java.util.Scanner;
 
 // A linked list is a data structure that consists of a sequence of elements, where each element points
@@ -19,13 +21,13 @@ import java.util.Scanner;
 
     // method to print the list
      public void display(Node head) {
-      Node temp = head;
-      while (temp != null) {
-        System.out.print(temp.value+" ");
-        temp = temp.next;
-      }
+       Node temp = head;
+       while (temp != null) {
+         System.out.print(temp.value + " ");
+         temp = temp.next;
+       }
        System.out.println();
-    }
+     }
     // method to get the size of the list.
     public int sizeOfList(Node head) {
       int count = 0;
