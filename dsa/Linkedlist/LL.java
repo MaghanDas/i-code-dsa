@@ -16,8 +16,6 @@ public class LL {
       temp.next = new Node(sc.nextInt());
       temp = temp.next;
     }
-    System.out.println("kshdkfhs");
-    System.out.println("dfkhdfkh");
     System.out.println("printing the elements...");
     head.display(head);
     // methods on linkedlist...
