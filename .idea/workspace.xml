@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d19bbf8-adcd-46da-b251-8a7b5f659018" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/linkedList/src/LL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stacks/Stacks.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stacks/src/ArrayStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stacks/src/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkedList/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/linkedList/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,14 +33,19 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2ZQunHX2to7XVGh9dRFrC5YaGtl" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "17",
     "settings.editor.selected.configurable": "preferences.lookFeel"
@@ -54,5 +61,8 @@
       <updated>1702366791351</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
