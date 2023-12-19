@@ -62,4 +62,5 @@ public class ArrayStack implements Stack{
 
   }
   // merge two stacks....
+  // return the bottom element.
 }
