@@ -23,13 +23,43 @@ public class ArrayStack implements Stack{
   @Override
   public void push(Object obj) {
 
+    if (size == a.length){
+      reSize();
+    }
+    a[size++] = obj;
+  }
+
+  private void reSize() {
+    Object[] aa = a;
+    a = new Object[2 * aa.length];
+    System.arraycopy(aa,0,a,0,size);
   }
 
   @Override
   public int size() {
-    return 0;
+    return size;
   }
-
   public static void main(String[] args) {
+    ArrayStack fruitCarats = new ArrayStack(10);
+    fruitCarats.push("Apples");
+    fruitCarats.push("kiwis");
+    fruitCarats.push("chiku");
+    fruitCarats.push("orange");
+    System.out.println(fruitCarats.peek());
+    fruitCarats.pop();
+    System.out.println(fruitCarats.peek());
+    System.out.println(fruitCarats.size());
+    fruitCarats.push("Anaar");
+    fruitCarats.push("corn");
+    System.out.println(fruitCarats.size());
+
+    // another object
+    ArrayStack coldDrinkCaraat = new ArrayStack(5);
+    coldDrinkCaraat.push("colaNext");
+    coldDrinkCaraat.push("pakola");
+    coldDrinkCaraat.push("slice");
+    coldDrinkCaraat.push("maaza");
+
   }
+  // merge two stacks....
 }
