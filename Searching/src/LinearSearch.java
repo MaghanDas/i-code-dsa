@@ -19,4 +19,4 @@
       LinearSearch.linearSearch(arr, target);
     }
   }
-  
+
