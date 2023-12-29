@@ -1,6 +1,5 @@
 
 // Linear Search on arrays
-// its algorithms to find the target element
   public class LinearSearch {
 
     public static void linearSearch(int[] arr, int target) {
