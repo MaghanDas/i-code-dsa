@@ -2,6 +2,7 @@ package dsa.Linkedlist;
 
 // A linked list is a linear data structure that consists of a sequence of elements, where each element points
 //  to the next element in the sequence.
+
 import java.util.Scanner;
 
 public class LL {
