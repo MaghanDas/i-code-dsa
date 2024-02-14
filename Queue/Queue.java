@@ -4,8 +4,6 @@ public class Queue{
     // queue- follows first in first out approach..
     // queue
 
-    System.out.println("hello world in this world..........");
-
   
     
   }
