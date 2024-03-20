@@ -1,0 +1,4 @@
+
+Pre-order = Root -> left -> Right
+Post-order = Left -> Right -> Root
+In-order = left -> Root -> Right
